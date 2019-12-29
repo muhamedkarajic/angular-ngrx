@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  text-align: center;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body,html
+{
+  min-width: 100%;
+  min-height: 100%;
+}
+.container
+{
+  width: 50%;
+  margin: auto;
+}
+
+.counter-vote {
+  color: white;
+  border-radius: 3px;
+  padding: 3px 7px;
+  background-color: royalblue;
+}
+button {
+  cursor: pointer;
+  margin: 0 2px;
+  padding: 7px 14px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+input {
+  text-align: left;
+}
+.btn-downvote {
+  background-color: hotpink;
+}
+
+.btn-upvote {
+  background-color: blueviolet;
+}
+
+.btn-rest {
+  background-color: cornflowerblue;
+}
+
+.edit-info {
+  display: inline-block;
+  border-radius: 3px;
+  margin: 0 4px;
+  background-color: green;
+  color: white;
+  padding: 4px 8px;
+}
+button[disabled] {
+  background:gray;
+  cursor: not-allowed;
+}
